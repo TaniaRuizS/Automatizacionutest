@@ -56,6 +56,5 @@ public class JoinToday implements Task {
                          Click.on(SELECT_TERMSOFUSE),
                          Click.on(SELECT_CODEOFCONDUCT),
                          Click.on(SELECT_PRIVACYSECURITY));
-                         //Click.on(ENTER_BUTTONCOMPLETESETUP));
         }
     }
