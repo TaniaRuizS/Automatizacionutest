@@ -1,9 +1,10 @@
 #Autor: Tania Ruiz Sanchez
 @stories
   Feature: financialUtest
-    As a user, I want to fill out the form on the uTest page to create
+    As a user I want to fill in data on the Utest page to create a user
   @scenario1
-  Scenario: Load uTest main page
-    Given I want to create a user and load the main page uTest
-    When I look for the Join Today button
-    Then I find the page to fill out the user creation form
+  Scenario: create user on Utest page
+    Given tania wants to create a user on the Utest page
+    When she looks for the JoinToday button and completes the data
+    # Then she accesses the page and creates the user correctly
+    Then she accesses the page and displays the message Welcome

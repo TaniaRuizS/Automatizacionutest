@@ -1,0 +1,241 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="d6d6b8e5b41dabbd6af853821af4f76bbcca8847a71f0bbd029ce42482c9c105.html">Financial Utest</a></span>
+                > <span class="truncate-60"><a
+                    href="b5b6982ddfe05a9dd13538d8a263cb9fb8f971a5c37c8759af773434910b871f.html">Load uTest main page </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 14-03-2022 15:31</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Financial Utest </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a user, I want to fill out the form on the uTest page to create
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='far fa-stop-circle pending-icon fa-2x' title='PENDING'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="pending-color">Load uTest main page
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="efd2bbcb5effb21a211cac6011da95b6e84108b98aadf68ad00733013c4eed05.png" title=" Given I want to create a user and load the main page uTest" width="1366"/>
+                <img src="efd2bbcb5effb21a211cac6011da95b6e84108b98aadf68ad00733013c4eed05.png" title=" Usuariotania open up" width="1366"/>
+                <img src="efd2bbcb5effb21a211cac6011da95b6e84108b98aadf68ad00733013c4eed05.png" title=" UsuarioTania opens the Utestpage" width="1366"/>
+                <img src="efd2bbcb5effb21a211cac6011da95b6e84108b98aadf68ad00733013c4eed05.png" title=" Usuariotania open up (completed)" width="1366"/>
+                <img src="4b46b3dbd25ea88d24b3ccdab158a27efa70281c9a2842092fb3ab9261b1e3a9.png" title=" Usuariotania join today" width="1366"/>
+                <img src="4b46b3dbd25ea88d24b3ccdab158a27efa70281c9a2842092fb3ab9261b1e3a9.png" title=" UsuarioTania clicks on button that shows us the form to create user" width="1366"/>
+                <img src="57d8ce42b690c7526aae894398e7d9f7f8c5d2a0d148500d0b8ffd10de1df95d.png" title=" UsuarioTania enters 'Tania' into where we write the first name" width="1366"/>
+                <img src="c647f1fcf717ea63229220c9ebec47aa5e1675ccf27f78171b5752d83058f39e.png" title=" UsuarioTania enters 'Ruiz' into Where we write the last name" width="1366"/>
+                <img src="ed4dead46e64627d17cb0eba95b2b358648598d611268bd67c2cbb5fffaa2638.png" title=" UsuarioTania enters 'tania8@hotmail.com' into Where we write the email" width="1366"/>
+                <img src="a7ec49f34b4bd6d4399b62be39d0718eef3f90fa2bbadd35af67efca239e1300.png" title=" UsuarioTania select January on where you select the month" width="1366"/>
+                <img src="78d7f33e2d260697a979cad900d652e2a9f32454d3ae438101c73e3e44aa2544.png" title=" UsuarioTania select 1 on where you select the day" width="1366"/>
+                <img src="a8a549263dea51ab174c47a2367dbc96e1fd42101883b9a9cae0bb24eb151bd4.png" title=" UsuarioTania select 2000 on where you select the year" width="1366"/>
+                <img src="6125c285ec76ec1ba57eb0da215b5c6fb311273a0a5b419678d08b3bbeadb7d7.png" title=" UsuarioTania clicks on select button next location button to continue" width="1366"/>
+                <img src="9310bd683e5daac2955fda1e4d34a347b3016c0b2e7262bb313e9a7ffbf29f30.png" title=" UsuarioTania enters 'Pereira' into Select the city" width="1366"/>
+                <img src="f4bbac6355b49bba6685f324e8257d506eea08490cd91c65ef6d13918eeb20bc.png" title=" UsuarioTania types 'ARROW_DOWN' in Select the city" width="1366"/>
+                <img src="1aeeff6760de02154713bb951c45305b7d4068ba5c5f926a85a2adb92118b684.png" title=" UsuarioTania enters '6001' into Enter zip code" width="1366"/>
+                <img src="4d565296e249c87c0a23f5c6f92c3ee6e4862c68695e69d740f20d0c9e011f9a.png" title=" UsuarioTania clicks on Select the country" width="1366"/>
+                <img src="9fb404437a3ff484efd4c3198a1f3b4ac609c403fcc7d31238fea526a3d7e923.png" title=" UsuarioTania enters '6001' into Enter zip code" width="1366"/>
+                <img src="4a2ab505934994bb05a1c88fc4134ee48128d10ce1c6d87d203a1bff8e06a333.png" title=" UsuarioTania clicks on Select button next Devices" width="1366"/>
+                <img src="32d88fd2f7e705797f464010038610797ad45f3fff772b8567eed9400d46232f.png" title=" UsuarioTania clicks on Select button next last step" width="1366"/>
+                <img src="c8c4e8dc09c02e8b6f46f872be359b4635b218f9e6a3b793b222aa98e69b3cb5.png" title=" UsuarioTania enters 'Taniasanchez123' into write password to create" width="1366"/>
+                <img src="29a174671d064f916f506e4d8c3dd9663d49201d4d1fff61d342a533d40f99b5.png" title=" UsuarioTania enters 'Taniasanchez123' into write password to confirm" width="1366"/>
+                <img src="11273d7b0ae821a5bf06250852faaadb74eaf94f935d32bf830e46062841b78a.png" title=" UsuarioTania clicks on accept terms of use" width="1366"/>
+                <img src="881e81b606509324963faa124391cb777a45050b6d81340931ae70b4768fa434.png" title=" UsuarioTania clicks on accept code of conduct" width="1366"/>
+                <img src="3f13440c6d802dfe6a9e038fbb622d27d58b8ae6515ce4058dfdb5409f63ae2c.png" title=" UsuarioTania clicks on accept privacy &amp; security policy" width="1366"/>
+                <img src="3f13440c6d802dfe6a9e038fbb622d27d58b8ae6515ce4058dfdb5409f63ae2c.png" title=" Usuariotania join today (completed)" width="1366"/>
+                <img src="3f13440c6d802dfe6a9e038fbb622d27d58b8ae6515ce4058dfdb5409f63ae2c.png" title=" Given I want to create a user and load the main page uTest (completed): <span class='pending-color'>PENDING</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
