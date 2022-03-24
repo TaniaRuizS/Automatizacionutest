@@ -132,7 +132,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 17-03-2022 20:15</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 24-03-2022 08:01</span>
     <br style="clear:left"/>
 </div>
 
@@ -179,9 +179,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">create user on Utest page
+                                <span class="error-color">create user on Utest page
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -195,50 +195,83 @@
 
     <div class="clr"></div>
 
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given tania wants to create a user on the Utest page<br>When she looks for the JoinToday button and completes the data<br><table class='embedded'><thead><th>firstname</th><th>lastname</th><th>email</th><th>month</th><th>day</th><th>year</th><th>city</th><th>postalcode</th><th>password1</th><th>password2</th></thead><tbody><tr><td>&lt;firstname&gt;</td><td>&lt;lastname&gt;</td><td>&lt;email&gt;</td><td>&lt;month&gt;</td><td>&lt;day&gt;</td><td>&lt;year&gt;</td><td>&lt;city&gt;</td><td>&lt;postalcode&gt;</td><td>&lt;password1&gt;</td><td>&lt;password2&gt;</td></tr></tbody></table><br>Then she accesses the page and displays the message Welcome</div>
+    </div>
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Element should be enabled exception: Expected enabled element was not enabled</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>co.com.choucair.certification.financial.tasks.Completes.performAs(Completes.java:26)<br />co.com.choucair.certification.financial.stepdefinitions.financialUtestStepDefinitions.sheLooksForTheJoinTodayButtonAndCompletesTheData(financialUtestStepDefinitions.java:33)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br /></pre>
+                    </div>
+
+                    <h4>
+                        Caused by: org.openqa.selenium.TimeoutException
+                    </h4>
+                    <div>
+                            <pre>Expected condition failed: waiting for By.id: city to be enabled (tried for 5 second(s) with 100 milliseconds interval)</pre>
+                        <pre>co.com.choucair.certification.financial.tasks.Completes.performAs(Completes.java :26)<br />co.com.choucair.certification.financial.stepdefinitions.financialUtestStepDefinitions.sheLooksForTheJoinTodayButtonAndCompletesTheData(financialUtestStepDefinitions.java :33)<br />cucumber.runner.Runner.runPickle(Runner.java :80)<br /></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource2426422994676937418.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="522e17753518c4aeec259ec2471e28b865ba836dccd23152e93588285bb59c08.png" title=" Given tania wants to create a user on the Utest page" width="1366"/>
-                <img src="522e17753518c4aeec259ec2471e28b865ba836dccd23152e93588285bb59c08.png" title=" Tania open up" width="1366"/>
-                <img src="522e17753518c4aeec259ec2471e28b865ba836dccd23152e93588285bb59c08.png" title=" Tania opens the Open up utest page" width="1366"/>
-                <img src="8302d54a64607223caa938a16355ca0d783b47208e777295ca8b0e60d32e77a5.png" title=" Tania open up (completed)" width="1366"/>
-                <img src="fd1500b63a6fca207655022028e1aa80f0697291d9a225f18d016a1244942f9f.png" title=" Tania join today" width="1366"/>
-                <img src="fd1500b63a6fca207655022028e1aa80f0697291d9a225f18d016a1244942f9f.png" title=" Tania clicks on button that shows us the form to create user" width="1366"/>
-                <img src="fd1500b63a6fca207655022028e1aa80f0697291d9a225f18d016a1244942f9f.png" title=" Tania join today (completed)" width="1366"/>
-                <img src="909adc6444a610f0d212c0e3706100363da1e0c4a6991870cba2bded275dbf8b.png" title=" Given tania wants to create a user on the Utest page (completed)" width="1366"/>
-                <img src="6d5c1f4fe34e46681a6a695480c1be555a27570dc1585c8f108143de8347c7f1.png" title=" When she looks for the JoinToday button and completes the data" width="1366"/>
-                <img src="6d5c1f4fe34e46681a6a695480c1be555a27570dc1585c8f108143de8347c7f1.png" title=" Tania completes" width="1366"/>
-                <img src="6d5c1f4fe34e46681a6a695480c1be555a27570dc1585c8f108143de8347c7f1.png" title=" Tania clicks on where we write the first name" width="1366"/>
-                <img src="f538bb9e85992aa8b7945f3f4d4235e343af541e3cfe5ce4d3112063f8306c74.png" title=" Tania enters 'TANIA' into where we write the first name" width="1366"/>
-                <img src="9e59f7b4e88d7694457f3df83bbc8fb397be828080af3a85c12c137dbe8f4f6a.png" title=" Tania enters 'RUIZ' into Where we write the last name" width="1366"/>
-                <img src="e88b6c946c1c1cd745c84ecc6b730731a293da73fb1eb48f9efb90a94de7b7bc.png" title=" Tania enters 'santidino12@hotmail.com' into Where we write the email" width="1366"/>
-                <img src="98abecf4ef36db2df4e339756381cc8b42df1f309cd278474b9010f0a126ce17.png" title=" Tania select March on where you select the month" width="1366"/>
-                <img src="3974469427ba4e8da7aef575a1cd7242b334f94b2b963b17819f9561f4490880.png" title=" Tania select 23 on where you select the day" width="1366"/>
-                <img src="f7e8f2bde940e2f7c991136ce036ecbd220e3864bde5a55715a7961458ae4d65.png" title=" Tania select 1995 on where you select the year" width="1366"/>
-                <img src="c19a109507742473680fc86bd3c194d5d026b45cadfbe029c6a410db516ea12a.png" title=" Tania clicks on select button next location button to continue" width="1366"/>
-                <img src="761372113631f472ce38af2eb10f66011e418452d7568a674b3d93b3a0112023.png" title=" Tania enters 'Pereira' into Select the city" width="1366"/>
-                <img src="2b627e02799cce0246fa15f3918b298eaf0eddec4287ceb0df1996748c80ca95.png" title=" Tania enters '660011' into Enter zip code" width="1366"/>
-                <img src="94676e4682ffc275b128bd751171675b3323e5ae81757bb3001c0c95b6f64a65.png" title=" Tania clicks on Select button next Devices" width="1366"/>
-                <img src="27de0a2ad74ae96320848e22af6fcdcdf7b7c5899e8bb6378afb578e2277ad4e.png" title=" Tania clicks on Click mobile device" width="1366"/>
-                <img src="53aa5c0f401c75bb476a90a4e2360f7d515283f56ffe9503eb52764531ac83f6.png" title=" Tania clicks on write mobile device" width="1366"/>
-                <img src="6e65e62bb388913b8aee141195dc4c48b3ee47446095005eb1df0c4a3cf244d9.png" title=" Tania clicks on Click model" width="1366"/>
-                <img src="6afcfa15a6413d5c6bee83bf6aec63e508a5ac2272795e5161a1447f5bb154c5.png" title=" Tania clicks on write model" width="1366"/>
-                <img src="1261156689c11b7a97db82b0f33fd4eeab23458273fd28faeaec643f966d0b9a.png" title=" Tania clicks on Click operating system" width="1366"/>
-                <img src="62a3a7dc70dbad40191cd83348388f6b5c6c62b71e1cb7a08632abe8603bb286.png" title=" Tania clicks on write operating system" width="1366"/>
-                <img src="1bf0df04931d80f20a6c1c7c377af56bd48378689b137dc3d52c83bd1971d42e.png" title=" Tania clicks on Select button next last step" width="1366"/>
-                <img src="63f78bf3e4712adc147fe9e38ae2960f60056f501e4e64bf5b80a618eac01c18.png" title=" Tania enters 'Taniasanchez123' into write password to create" width="1366"/>
-                <img src="ecd8a7d8a078e172e5fc861c8a44d9f179302d98934dda7fa06a3fe5d401638f.png" title=" Tania enters 'Taniasanchez123' into write password to confirm" width="1366"/>
-                <img src="fe870131adf404a756bfb8d189cd2f3af1e8d61a718daadd535c56739e5d4507.png" title=" Tania clicks on accept terms of use" width="1366"/>
-                <img src="518f38fdd91bdf468dd0599746531f6ea50ba1782628b6968ad49d974bb33c42.png" title=" Tania clicks on accept code of conduct" width="1366"/>
-                <img src="ca888a74669e8744e6e9fb9a40ede3d57e42079f46f1f822d303c139ebab3810.png" title=" Tania clicks on accept privacy &amp; security policy" width="1366"/>
-                <img src="a9e342e8bce2d7256f8af529d622cea07318afc9c1cadf7934dd8418ebf9c52e.png" title=" Tania clicks on Select button complete setup" width="1366"/>
-                <img src="a9e342e8bce2d7256f8af529d622cea07318afc9c1cadf7934dd8418ebf9c52e.png" title=" Tania completes (completed)" width="1366"/>
-                <img src="a9e342e8bce2d7256f8af529d622cea07318afc9c1cadf7934dd8418ebf9c52e.png" title=" When she looks for the JoinToday button and completes the data (completed)" width="1366"/>
-                <img src="f471c68a92b875a6900b1a63fe8f0d0f440e561a9a573451f3ea1b6a6eb0ed0d.png" title=" Then she accesses the page and displays the message Welcome" width="1366"/>
-                <img src="f471c68a92b875a6900b1a63fe8f0d0f440e561a9a573451f3ea1b6a6eb0ed0d.png" title=" Then answer" width="1366"/>
-                <img src="f471c68a92b875a6900b1a63fe8f0d0f440e561a9a573451f3ea1b6a6eb0ed0d.png" title=" Then she accesses the page and displays the message Welcome (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+                <img src="efd2bbcb5effb21a211cac6011da95b6e84108b98aadf68ad00733013c4eed05.png" title=" Example: {firstname=Tania, lastname=Ruiz, email=taniaruizs123@hotmail.com, month=March, day=23, year=1995, city=Pereira, postalcode=66001, password1=Taniasanchez123*, password2=Taniasanchez123*}" width="1366"/>
+                <img src="efd2bbcb5effb21a211cac6011da95b6e84108b98aadf68ad00733013c4eed05.png" title=" Given tania wants to create a user on the Utest page" width="1366"/>
+                <img src="efd2bbcb5effb21a211cac6011da95b6e84108b98aadf68ad00733013c4eed05.png" title=" Tania open up" width="1366"/>
+                <img src="efd2bbcb5effb21a211cac6011da95b6e84108b98aadf68ad00733013c4eed05.png" title=" Tania opens the Open up utest page" width="1366"/>
+                <img src="efd2bbcb5effb21a211cac6011da95b6e84108b98aadf68ad00733013c4eed05.png" title=" Tania open up (completed)" width="1366"/>
+                <img src="3eb367eccfd6dab3241c110c23a0e2c48ea762db031c6aaec134fe69f29469c5.png" title=" Tania join today" width="1366"/>
+                <img src="3eb367eccfd6dab3241c110c23a0e2c48ea762db031c6aaec134fe69f29469c5.png" title=" Tania clicks on button that shows us the form to create user" width="1366"/>
+                <img src="3eb367eccfd6dab3241c110c23a0e2c48ea762db031c6aaec134fe69f29469c5.png" title=" Tania join today (completed)" width="1366"/>
+                <img src="3eb367eccfd6dab3241c110c23a0e2c48ea762db031c6aaec134fe69f29469c5.png" title=" Given tania wants to create a user on the Utest page (completed)" width="1366"/>
+                <img src="8a60b075a1edfd9127153199848c706a9564c431d8212799432d74c2b79a2560.png" title=" When she looks for the JoinToday button and completes the data
+| firstname | lastname | email | month | day | year | city | postalcode | password1 | password2 |
+| Tania | Ruiz | taniaruizs123@hotmail.com | March | 23 | 1995 | Pereira | 66001 | Taniasanchez123* | Taniasanchez123* |" width="1366"/>
+                <img src="8a60b075a1edfd9127153199848c706a9564c431d8212799432d74c2b79a2560.png" title=" Tania completes" width="1366"/>
+                <img src="8a60b075a1edfd9127153199848c706a9564c431d8212799432d74c2b79a2560.png" title=" Tania clicks on where we write the first name" width="1366"/>
+                <img src="634c657c50ea21e89fd4ad3a6df544b7bce0fa503811e8890fbad635c25d0971.png" title=" Tania enters 'Tania' into where we write the first name" width="1366"/>
+                <img src="18176b31d4518bfb075abfd962f2cd5aa69ebffd1e63aea813a13567b6b99518.png" title=" Tania enters 'Ruiz' into Where we write the last name" width="1366"/>
+                <img src="ba68b18158a7b8da81df17ae9f38e1d34fa9abdfaf18b467b819823943e859cc.png" title=" Tania enters 'taniaruizs123@hotmail.com' into Where we write the email" width="1366"/>
+                <img src="f8b7a03e5a56927427b9f0341d3665e264dd014bb2c883da8f61fac0b6e2ba17.png" title=" Tania select March on where you select the month" width="1366"/>
+                <img src="dc641e10fdc68103e3ab2dea12c310aed60ece164bc43b8c76bc210dffed6cf2.png" title=" Tania select 23 on where you select the day" width="1366"/>
+                <img src="cf97ec0e5830b5e7450dca4aade57bcafd4ea6814aa08b155638aa4ae04b13c7.png" title=" Tania select 1995 on where you select the year" width="1366"/>
+                <img src="3b64ffb332a47923e84302d9c0e7c6a663cf5f90e3200dd4d299bf3b0d0e53a9.png" title=" Tania clicks on select button next location button to continue" width="1366"/>
+                <img src="2c95a058e522a00248b16722e2dd015ecb20d9a5fad8a30288cf40f23a53bf84.png" title=" Tania enters 'Pereira' into Select the city: <span class='error-color'>ERROR</span>" width="1366"/>
             </div>
         </div>
 

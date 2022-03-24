@@ -1,1 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="financialUtest" skipped="0" tests="1" time="64.53" timestamp="2022-03-17 08:15:14"><testcase name="create user on Utest page"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="1" name="financialUtest" skipped="0" tests="2" time="39.57" timestamp="2022-03-24 08:01:37"><testcase name="create user on Utest page"><error message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</error><system-err>Expected enabled element was not enabled&#13;
+co.com.choucair.certification.financial.tasks.Completes.performAs(Completes.java:26)&#13;
+co.com.choucair.certification.financial.stepdefinitions.financialUtestStepDefinitions.sheLooksForTheJoinTodayButtonAndCompletesTheData(financialUtestStepDefinitions.java:33)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>

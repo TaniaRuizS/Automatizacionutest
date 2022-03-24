@@ -1,5 +1,6 @@
 package co.com.choucair.certification.financial.stepdefinitions;
 
+import co.com.choucair.certification.financial.model.InformationData;
 import co.com.choucair.certification.financial.questions.Answer;
 import co.com.choucair.certification.financial.tasks.Completes;
 import co.com.choucair.certification.financial.tasks.JoinToday;
@@ -11,6 +12,8 @@ import cucumber.api.java.en.Then;
 import net.serenitybdd.screenplay.GivenWhenThen;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
+
+import java.util.List;
 
 public class financialUtestStepDefinitions {
 
@@ -25,9 +28,9 @@ public class financialUtestStepDefinitions {
 }
 
 
-    @When("^she looks for (.*) and completes the data$")
-    public void sheLooksForTheJoinTodayButtonAndCompletesTheData(String data) {
-        OnStage.theActorInTheSpotlight().attemptsTo(Completes.the(data));
+    @When("^she looks for the JoinToday button and completes the data$")
+    public void sheLooksForTheJoinTodayButtonAndCompletesTheData(List<InformationData> informationData) {
+        OnStage.theActorInTheSpotlight().attemptsTo(Completes.the(informationData.get(0)));
 }
 
 
